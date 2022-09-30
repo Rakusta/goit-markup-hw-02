@@ -11,8 +11,7 @@
 .body{
     color: var(--primary-text-color);
     background-color: #F5F5F5;
-    font-family: 'Roboto''Sans senif;
-}
+    font-family: 'Roboto';}
 
 .list{
     list-style: none;
@@ -25,6 +24,7 @@
 /* header */
 .header{
     background-color: var(--primary-background-color);
+    font-family: 'Roboto';
 }
 .logo-link{
     color:var(--logo-blue-color); 
@@ -91,8 +91,10 @@
 /*hero*/
 .hero{
     background-color: var(--accent-background-color);
+    font-family: 'Roboto';
 }
 .hero-title{
+    font-family: 'Roboto';
     color: var(--hero-text-color);
     font-weight: 900;
     font-size: 44px;
@@ -122,6 +124,7 @@
 
 /*benefits*/
 .benefits{
+    font-family: 'Roboto';
     background-color: var(--primary-background-color);
 }
 .benefits-title{
@@ -136,6 +139,7 @@
 
 }
 .benefits-descriptions{
+    font-family: 'Roboto';
     color: #757575; 
     font-size: 14px;
     line-height: 24px;
@@ -183,6 +187,7 @@
 
 /*our-team*/
 .our-team{
+    font-family: 'Roboto';
     background-color: var(--additional-background-color);
 }
 
@@ -213,6 +218,7 @@
 }
 /*footer*/
 .footer{
+    font-family: 'Roboto';
     background-color:#2F303A;
 }
 
