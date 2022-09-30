@@ -8,10 +8,10 @@
     --accent-background-color:#2F303A;
 }
 
-body{
+.body{
     color: var(--primary-text-color);
     background-color: #F5F5F5;
-    font-family: 'roboto', 'sans-serif';
+    font-family: 'Roboto''S;
 }
 
 .list{
@@ -99,6 +99,7 @@ body{
     line-height: calv(60/44);
     letter-spacing: 0.06em;
     text-align: center;
+    text-transform: uppercase;
     }
 
 /*button*/
@@ -184,18 +185,22 @@ body{
 .our-team{
     background-color: var(--additional-background-color);
 }
+
 .our-team-title{
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
     text-align: center;
     letter-spacing: 0.03em;
+    background-color: var(--primary-background-color);
 }
 .team-member-name{
     color: var(--primary-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
+    background-color: var(--primary-background-color);
+
 }
 
 .team-member-posiion{
@@ -203,6 +208,8 @@ body{
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
+    background-color: var(--primary-background-color);
+
 }
 /*footer*/
 .footer{
