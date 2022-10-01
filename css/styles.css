@@ -21,7 +21,7 @@
 
 body{
     background-color: var(--primary-background-color);
-    font-family:'Roboto''sans-serif';
+    font-family: ‘Roboto’, sans-serif;
 }
 
 .list{
@@ -66,9 +66,6 @@ body{
 }
 
 /* Site navigaion */
-.site-nav-list{
-}
-
 .navigation-link{
     color: var(--primary-text-color);
     font-weight: 500;
@@ -126,6 +123,7 @@ body{
     font-size: 14px;
     line-height:calc(24/14);
     letter-spacing: 0.03em;
+    text-decoration: none;
 }
 
 .link-address{
@@ -134,6 +132,8 @@ body{
     line-height:calc(24/14);
     letter-spacing: 0.03em;
     color:var(--hero-text-color-low-wisibility);
+    text-decoration: none;
+
 }
 
 
