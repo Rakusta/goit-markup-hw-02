@@ -8,20 +8,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
-
-    
+    <link rel="stylesheet" href="./css/styles.css">    
 </head>
 <body>
 <!--Header-->
 <header class="header">
     <nav>
         <a href="./index.html" class="logo-link link">Web<span class="accent-black">Studio</span></a>
-        <ul class="site-nav-list list ">
-            <li><a href ="./index.html" class="link current">Студія</a></li>
-            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
-            <li><a href="/" class="link">Контакти</a></li>
-        </ul>
+            <ul class="site-nav-list list ">
+                <li><a href ="./index.html" class="navigation-link link current">Студія</a></li>
+                <li><a href="./portfolio.html" class="navigation-link link">Портфоліо</a></li>
+                <li><a href="/"class="navigation-link link">Контакти</a></li>
+            </ul>
     </nav>
     <ul class="auth-nav-list list">
         <li><a href="mailto:info@devstudio.com" class="auth-link">info@devstudio.com</a></li>
@@ -29,14 +27,13 @@
     </ul>            
 </header>
 <main>
-<!--Hero-->
     <section class="hero"> 
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button">Замовити послугу</button>
     </section>
 <!--Benefits to be hided via CSS further-->
     <section class="benefits">
-        <h2 hidden class="visually-hidden">Переваги нашої студії</h2>
+        <h2 class="visually-hidden">Переваги нашої студії</h2>
         <ul class="benefits-list list">
             <li><h3 class="benefits-title ">УВАГА ДО ДЕТАЛЕЙ</h3>
                 <p class="benefits-descriptions">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -71,22 +68,22 @@
     <section class="our-team">
         <h2 class="our-team-title">Наша команда</h2>
         <ul class="our-team list">
-            <li>
+            <li class="team-card">
                 <img src="./images/photo1.jpeg" alt="Чоловік в окулярах з бородою. Посміхається." width="270">
                 <h3 class="team-member-name">Ігор Дем'яненко</h3>
                 <p lang="en" class="team-member-posiion">Product Designer</p>
             </li>
-            <li>
+            <li class="team-card">
                 <img src="./images/photo2.jpeg" alt="Жінка в окулярах. Білявка.Посміхається." width="270">
                 <h3 class="team-member-name">Ольга Рєпіна</h3>
                 <p lang="en" class="team-member-posiion">Frontend Developer</p>
             </li>
-            <li>
+            <li class="team-card">
                 <img src="./images/photo3.jpeg" alt="Чоловік у блакитній рубашці. Посміхається." width="270">
                 <h3 class="team-member-name">Микола Тарасов</h3>
                 <p lang="en" class="team-member-posiion">Marketing</p>
             </li>
-            <li>
+            <li class="team-card">
                 <img src="./images/photo4.jpeg" alt="Чоловік в окулярах з бородою. Замислився." width="270">
                 <h3 class="team-member-name">Михайло Єрмаков</h3>
                 <p lang="en" class="team-member-posiion">UI Designer</p>
@@ -105,8 +102,8 @@
                 rel="noopener noreferrer nofollow" class="link-address-address link"
                 >м. Київ, пр-т Лесі Українки, 26</a>
             </li>
-            <li><a href="mailto:info@devstudio.com" class="link-address link">info@devstudio.com></a></li>
-            <li><a href="tel:+380961111111" class="link-address link">+38 096 111 11 11></a></li>
+            <li><a href="mailto:info@devstudio.com" class="link-address link">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111" class="link-address link">+38 096 111 11 11</a></li>
         </ul>
     </address>
 </footer>
