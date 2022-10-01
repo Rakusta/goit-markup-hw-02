@@ -8,10 +8,10 @@
     --accent-background-color:#2F303A;
 }
 
-.body{
+body{
     color: var(--primary-text-color);
     background-color: #F5F5F5;
-    font-family: 'Roboto';}
+    font-family: 'Roboto' 'open sans';}
 
 .list{
     list-style: none;
