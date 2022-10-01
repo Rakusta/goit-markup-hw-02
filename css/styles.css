@@ -11,7 +11,10 @@
 body{
     color: var(--primary-text-color);
     background-color: #F5F5F5;
-    font-family: 'Roboto' 'open sans';}
+    font-family: 'Roboto' 'open sans';
+    font-size: 14px;
+    line-height: calc(24/14);
+}
 
 .list{
     list-style: none;
