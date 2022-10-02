@@ -50,7 +50,6 @@ body{
 
 /* -------------header------------ */
 .header{
-    background-color:var(--primary-background-color);
     font-family:'Roboto';
 }
 .logo-link{
@@ -174,9 +173,6 @@ body{
 }
 
 /*benefits*/
-.benefits{
-    background-color: var(--primary-background-color);
-}
 
 .benefits-title{
     color: var(--primary-text-color);
@@ -195,9 +191,6 @@ body{
 }
 
 /*examples*/
-.examples{
-    background-color:var(--primary-background-color);
-}
 .examples-title{
     color: var(--primary-text-color);
     font-weight: 700;
@@ -213,9 +206,6 @@ body{
     background-color: var(--additional-background-color);
 }
 
-.team-card{
-background-color: var(--primary-background-color);
-}
 .our-team-title{
     font-weight: 700;
     font-size: 36px;
