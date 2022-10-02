@@ -1,9 +1,8 @@
 :root{
     --primary-text-color: #212121;
-    --hero-text-color: #F5F5F5;
+    --hero-text-color: #FFFFFF;
     --accet-text-color: #757575;
     --hero-text-color-low-wisibility:rgba(255, 255, 255, 0.6);
-
     --logo-blue-color:#2196F3;
     --primary-background-color:#FFFFFF;
     --additional-background-color:#F5F4FA;
@@ -21,7 +20,7 @@
 
 body{
     background-color: var(--primary-background-color);
-    font-family: "Robot", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .list{
@@ -63,6 +62,7 @@ body{
 
 .accent-black{
     color: var(--primary-text-color);
+    font-family: inherit;
 }
 
 /* Site navigaion */
@@ -106,12 +106,12 @@ body{
 
 /*--------------footer--------------*/
 .footer{
-    font-family: 'Roboto';
     background-color:var(--accent-background-color);
 }
 
 /*address*/
 .accent-white{
+    font-family: inherit;
     color:var(--hero-text-color);
     font-weight: 700;
     font-size: 26px;
@@ -201,8 +201,7 @@ body{
 }
 
 /*our-team*/
-.our-team{
-    font-family: 'Roboto';
+.our-team-section{
     background-color: var(--additional-background-color);
 }
 
@@ -213,6 +212,7 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
 }
+
 .team-member-name{
     color: var(--primary-text-color);
     font-weight: 500;
@@ -225,6 +225,10 @@ body{
     font-size: 16px;
     line-height: calc(19/16);
     letter-spacing: 0.03em;
+}
+
+.team-card{
+    background-color: var(--primary-background-color);
 }
 
 /*--------------Portfoio------------ */
