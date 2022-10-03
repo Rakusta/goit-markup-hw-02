@@ -236,12 +236,12 @@ body{
 .filter{
     font-family: inherit;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: calc(30/16);
+    line-height: calc(26/16);
     color: var(--primary-text-color);
     background-color: var(--filter-colour);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.03em;
     cursor: pointer;
     border-radius: 4px;
 }
